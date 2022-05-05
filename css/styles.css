@@ -40,7 +40,11 @@ header h2 {
   bottom: 0;
   z-index: 100; }
 
-#reserveModal .modal-header {
+#seminarModal .modal-header {
+  color: white;
+  background-color: #17A2B8; }
+
+#lessonModal .modal-header {
   color: white;
   background-color: #17A2B8; }
 

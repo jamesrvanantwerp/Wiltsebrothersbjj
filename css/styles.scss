@@ -65,7 +65,14 @@ min-height: 200px;
   z-index: 100;
 }
 
-#reserveModal {
+#seminarModal {
+  .modal-header {
+    color: $color-white;
+    background-color: $color-teal;
+  }
+}
+
+#lessonModal {
   .modal-header {
     color: $color-white;
     background-color: $color-teal;

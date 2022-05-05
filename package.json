@@ -1,7 +1,7 @@
 {
-  "name": "nucampsite",
+  "name": "wiltsebrothersbjj",
   "version": "1.0.0",
-  "description": "This is a website for the fictional campsites review site Nucamp",
+  "description": "A site for all things Wiltse Brothers BJJ",
   "main": "index.html",
   "scripts": {
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
@@ -34,5 +34,13 @@
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesrvanantwerp/Wiltsebrothersbjj.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jamesrvanantwerp/Wiltsebrothersbjj/issues"
+  },
+  "homepage": "https://github.com/jamesrvanantwerp/Wiltsebrothersbjj#readme"
 }
