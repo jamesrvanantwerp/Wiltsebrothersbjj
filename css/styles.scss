@@ -28,10 +28,26 @@ body {
   $body-bg:
 }
 
+.box {
+  width:100%;
+  margin:0px;
+  padding:0px;
+  height:100%;
+  // background-image: linear-gradient(to right, $color-dark, $color-dark, $color-secondary);
+  background-color: $color-dark;
+  // margin: 0px;
+}
+
 html body {
   // // background-color: linear-gradient($color-dark, $color-primary);
   // background-image: linear-gradient(to right, $color-dark, $color-dark, $color-secondary);
 
+}
+
+h1 {
+  font-family: $header-font;
+  font-size: 60px;
+  color: white;
 }
 
 h1, h2, h3 {
@@ -70,8 +86,8 @@ min-height: 200px;
 }
 
 .navbar-dark {
-  // background-color: $color-dark;
-  background-image: linear-gradient(to right, $color-dark, $color-dark, $color-secondary);
+  background-color: $color-dark;
+  // background-image: linear-gradient(to right, $color-dark, $color-dark, $color-secondary);
 }
 
 .carousel-caption {
@@ -108,4 +124,9 @@ min-height: 200px;
     color: $color-white;
     background-color: $color-mid;
   }
+}
+
+.link-images img{
+  vertical-align:bottom;
+  margin-top:auto;
 }

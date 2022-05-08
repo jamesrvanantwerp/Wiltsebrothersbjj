@@ -1,6 +1,18 @@
 body {
   font-family: "Roboto", sans-serif; }
 
+.box {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  background-color: #000000; }
+
+h1 {
+  font-family: "Libre Bodoni", serif;
+  font-size: 60px;
+  color: white; }
+
 h1, h2, h3 {
   font-family: "Libre Bodoni", serif; }
 
@@ -28,7 +40,7 @@ header h2 {
   min-height: 200px; }
 
 .navbar-dark {
-  background-image: linear-gradient(to right, #000000, #000000, #575757); }
+  background-color: #000000; }
 
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5); }
@@ -53,3 +65,7 @@ header h2 {
 #loginModal .modal-header {
   color: white;
   background-color: #990000; }
+
+.link-images img {
+  vertical-align: bottom;
+  margin-top: auto; }
