@@ -1,17 +1,37 @@
-$color-primary: #3046C5;
-$color-secondary: #5637dd;
-$color-pale: #CEC8FF;
-$color-mid: #901CAD;
-$color-dark: #60106b;
+$color-primary: #3f3f3f;
+$color-secondary: #575757;
+$color-pale: #990000;
+$color-mid: #990000;
+$color-dark: #000000;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
 $color-teal: #17A2B8;
 $color-white: white;
 
-$body-font: "Open Sans", sans-serif;
-$header-font: "Lobster", cursive;
+$body-bg: #000;
+$body-color: #111;
+
+$body-font: 'Roboto', sans-serif;
+$header-font: 'Libre Bodoni', serif;
+
+// font-family: 'Libre Bodoni', serif;
+// font-family: 'Merriweather Sans', sans-serif;
+// font-family: 'Permanent Marker', cursive;
+
+// font-family: 'Libre Bodoni', serif;
+// font-family: 'Merriweather Sans', sans-serif;
+// // font-family: 'Permanent Marker', cursive;
+// font-family: 'Roboto', sans-serif;
+
 
 body {
   font-family: $body-font;
+  $body-bg:
+}
+
+html body {
+  // // background-color: linear-gradient($color-dark, $color-primary);
+  // background-image: linear-gradient(to right, $color-dark, $color-dark, $color-secondary);
+
 }
 
 h1, h2, h3 {
@@ -22,6 +42,10 @@ h2 {
   color: $color-primary;
 }
 
+h5 {
+  color: white;
+}
+
 header {
     h2  {
         color: $color-pale;
@@ -29,14 +53,13 @@ header {
 }
 
 .site-footer {
-  background-image: linear-gradient($color-pale, white);
   padding: 20px 0;
 }
 
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
+  background-image: linear-gradient(to right, $color-dark, $color-dark, $color-secondary);
   color: white,
 }
 
@@ -47,7 +70,8 @@ min-height: 200px;
 }
 
 .navbar-dark {
-  background-color: $color-mid;
+  // background-color: $color-dark;
+  background-image: linear-gradient(to right, $color-dark, $color-dark, $color-secondary);
 }
 
 .carousel-caption {
@@ -68,14 +92,14 @@ min-height: 200px;
 #seminarModal {
   .modal-header {
     color: $color-white;
-    background-color: $color-teal;
+    background-color: $color-mid;
   }
 }
 
 #lessonModal {
   .modal-header {
     color: $color-white;
-    background-color: $color-teal;
+    background-color: $color-mid;
   }
 }
 

@@ -1,23 +1,25 @@
 body {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Roboto", sans-serif; }
 
 h1, h2, h3 {
-  font-family: "Lobster", cursive; }
+  font-family: "Libre Bodoni", serif; }
 
 h2 {
-  color: #3046C5; }
+  color: #3f3f3f; }
+
+h5 {
+  color: white; }
 
 header h2 {
-  color: #CEC8FF; }
+  color: #990000; }
 
 .site-footer {
-  background-image: linear-gradient(#CEC8FF, white);
   padding: 20px 0; }
 
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+  background-image: linear-gradient(to right, #000000, #000000, #575757);
   color: white; }
 
 .row-content {
@@ -26,13 +28,13 @@ header h2 {
   min-height: 200px; }
 
 .navbar-dark {
-  background-color: #901CAD; }
+  background-image: linear-gradient(to right, #000000, #000000, #575757); }
 
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5); }
 
 .carousel {
-  border: solid #5637dd; }
+  border: solid #575757; }
 
 #carouselButton {
   position: absolute;
@@ -42,12 +44,12 @@ header h2 {
 
 #seminarModal .modal-header {
   color: white;
-  background-color: #17A2B8; }
+  background-color: #990000; }
 
 #lessonModal .modal-header {
   color: white;
-  background-color: #17A2B8; }
+  background-color: #990000; }
 
 #loginModal .modal-header {
   color: white;
-  background-color: #901CAD; }
+  background-color: #990000; }
