@@ -13,14 +13,14 @@ h1 {
   font-size: 60px;
   color: white; }
 
-h1, h2, h3 {
+h1, h2 {
   font-family: "Libre Bodoni", serif; }
 
 h2 {
   color: #3f3f3f; }
 
-h5 {
-  color: white; }
+h5, h3 {
+  color: black; }
 
 header h2 {
   color: #990000; }
@@ -69,3 +69,7 @@ header h2 {
 .link-images img {
   vertical-align: bottom;
   margin-top: auto; }
+
+.big-banner {
+  background-image: url("../img/Black-Belt.jpg");
+  background-size: 100%; }

@@ -50,7 +50,7 @@ h1 {
   color: white;
 }
 
-h1, h2, h3 {
+h1, h2, {
   font-family: $header-font;
 }
 
@@ -58,8 +58,8 @@ h2 {
   color: $color-primary;
 }
 
-h5 {
-  color: white;
+h5, h3 {
+  color: black;
 }
 
 header {
@@ -129,4 +129,10 @@ min-height: 200px;
 .link-images img{
   vertical-align:bottom;
   margin-top:auto;
+}
+
+.big-banner{
+  background-image: url('../img/Black-Belt.jpg');
+  background-size: 100%;
+  // text-align: center;
 }
